@@ -13,6 +13,7 @@ namespace Boss2
         public int Strength { get;  set; }
         public int Stamina { get; set; }
         public int MaxStamina { get; set; }
+
         public GameCharacter(string name, int stamina, int health)
         {
             Name = name;
